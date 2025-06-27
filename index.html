@@ -9,17 +9,21 @@
   <body>
     <!-- Topbar -->
     <div
-      class="flex justify-between items-center z-50 px-[10%] py-5 sticky top-0 left-0 right-0 shadow-md shadow-amber-950 bg-orange-200 backdrop-blur-lg"
+      class="flex flex-col sm:flex-row justify-between items-center z-50 px-4 sm:px-[10%] py-3 sm:py-5 sticky top-0 left-0 right-0 shadow-md shadow-amber-950 bg-orange-200 backdrop-blur-lg"
     >
-      <h1 class="text-amber-950 text-4xl font-extralight">
+      <h1
+        class="text-amber-950 text-2xl sm:text-4xl font-extralight text-center sm:text-left"
+      >
         Online shop magazine
       </h1>
-      <p class="text-amber-950 text-1xl font-extralight">
+      <p
+        class="text-amber-950 text-base sm:text-1xl font-extralight mt-2 sm:mt-0 text-center sm:text-left"
+      >
         by Marjona Mavlonova
       </p>
       <button
         id="cart-btn"
-        class="px-4 py-2 bg-amber-950 text-orange-200 rounded-sm cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 relative"
+        class="px-3 sm:px-4 py-2 bg-amber-950 text-orange-200 rounded-sm cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 relative mt-2 sm:mt-0"
       >
         SAVATCHA
         <span
@@ -31,22 +35,25 @@
     </div>
 
     <!-- Shop -->
-    <div id="projects" class="px-[10%] py-20 bg-orange-200 flex gap-50">
+    <div
+      id="projects"
+      class="px-4 sm:px-[10%] py-10 sm:py-20 bg-orange-200 flex flex-col md:flex-row flex-wrap gap-6 md:gap-10 lg:gap-16 justify-center items-center"
+    >
       <!-- 1-shop -->
       <div
-        class="bg-amber-950 rounded-xl p-6 shadow-md hover:shadow-xl hover:scale-105 duration-300"
+        class="bg-amber-950 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-xl hover:scale-105 duration-300 w-full sm:w-[320px] max-w-xs"
       >
         <img
           src="web dress4.jpg"
-          class="rounded-md mb-4 w-50"
+          class="rounded-md mb-4 w-full h-48 object-cover"
           alt="Project 1"
         />
-        <h3 class="text-xl mb-2 font-extralight text-orange-50">
+        <h3 class="text-lg sm:text-xl mb-2 font-extralight text-orange-50">
           Old money hidjab look
         </h3>
         <p class="text-orange-200">300$</p>
         <button
-          class="px-4 py-2 bg-orange-50 text-amber-950 rounded-4xl cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 add-to-cart"
+          class="px-4 py-2 bg-orange-50 text-amber-950 rounded-4xl cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 add-to-cart w-full mt-2"
           data-title="Old money hidjab look"
           data-price="300"
           data-img="web dress4.jpg"
@@ -56,19 +63,19 @@
       </div>
       <!-- 2-shop -->
       <div
-        class="bg-amber-950 rounded-xl p-6 shadow-md hover:shadow-xl hover:scale-105 duration-300"
+        class="bg-amber-950 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-xl hover:scale-105 duration-300 w-full sm:w-[320px] max-w-xs"
       >
         <img
           src="web dress3.jpg"
-          class="rounded-md mb-4 w-50"
+          class="rounded-md mb-4 w-full h-48 object-cover"
           alt="Project 1"
         />
-        <h3 class="text-xl mb-2 font-extralight text-orange-50">
+        <h3 class="text-lg sm:text-xl mb-2 font-extralight text-orange-50">
           Old money hidjab look
         </h3>
         <p class="text-orange-200">450$</p>
         <button
-          class="px-4 py-2 bg-orange-50 text-amber-950 rounded-4xl cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 add-to-cart"
+          class="px-4 py-2 bg-orange-50 text-amber-950 rounded-4xl cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 add-to-cart w-full mt-2"
           data-title="Old money hidjab look"
           data-price="450"
           data-img="web dress3.jpg"
@@ -78,19 +85,19 @@
       </div>
       <!-- 3-shop -->
       <div
-        class="bg-amber-950 rounded-xl p-6 shadow-md hover:shadow-xl hover:scale-105 duration-300"
+        class="bg-amber-950 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-xl hover:scale-105 duration-300 w-full sm:w-[320px] max-w-xs"
       >
         <img
           src="web koylak 2.jpg"
-          class="rounded-md mb-4 w-50"
+          class="rounded-md mb-4 w-full h-48 object-cover"
           alt="Project 1"
         />
-        <h3 class="text-xl mb-2 font-extralight text-orange-50">
+        <h3 class="text-lg sm:text-xl mb-2 font-extralight text-orange-50">
           Old money hidjab look
         </h3>
         <p class="text-orange-200">350$</p>
         <button
-          class="px-4 py-2 bg-orange-50 text-amber-950 rounded-4xl cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 add-to-cart"
+          class="px-4 py-2 bg-orange-50 text-amber-950 rounded-4xl cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 add-to-cart w-full mt-2"
           data-title="Old money hidjab look"
           data-price="350"
           data-img="web koylak 2.jpg"
@@ -100,21 +107,24 @@
       </div>
     </div>
     <!-- 4-shop -->
-    <div id="projects2" class="px-[10%] py-20 bg-orange-200 flex gap-50">
+    <div
+      id="projects2"
+      class="px-4 sm:px-[10%] py-10 sm:py-20 bg-orange-200 flex flex-col md:flex-row flex-wrap gap-6 md:gap-10 lg:gap-16 justify-center items-center"
+    >
       <div
-        class="bg-amber-950 rounded-xl p-6 shadow-md hover:shadow-xl hover:scale-105 duration-300"
+        class="bg-amber-950 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-xl hover:scale-105 duration-300 w-full sm:w-[320px] max-w-xs"
       >
         <img
           src="saytkoylak5.jpg"
-          class="rounded-md mb-4 w-50"
+          class="rounded-md mb-4 w-full h-48 object-cover"
           alt="Project 1"
         />
-        <h3 class="text-xl mb-2 font-extralight text-orange-50">
+        <h3 class="text-lg sm:text-xl mb-2 font-extralight text-orange-50">
           Old money hidjab look
         </h3>
         <p class="text-orange-200">310$</p>
         <button
-          class="px-4 py-2 bg-orange-50 text-amber-950 rounded-4xl cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 add-to-cart"
+          class="px-4 py-2 bg-orange-50 text-amber-950 rounded-4xl cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 add-to-cart w-full mt-2"
           data-title="Old money hidjab look"
           data-price="310"
           data-img="saytkoylak5.jpg"
@@ -124,19 +134,19 @@
       </div>
       <!-- 5-shop -->
       <div
-        class="bg-amber-950 rounded-xl p-6 shadow-md hover:shadow-xl hover:scale-105 duration-300"
+        class="bg-amber-950 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-xl hover:scale-105 duration-300 w-full sm:w-[320px] max-w-xs"
       >
         <img
           src="saytkoylak7.jpg"
-          class="rounded-md mb-4 w-50"
+          class="rounded-md mb-4 w-full h-48 object-cover"
           alt="Project 1"
         />
-        <h3 class="text-xl mb-2 font-extralight text-orange-50">
+        <h3 class="text-lg sm:text-xl mb-2 font-extralight text-orange-50">
           Old money hidjab look
         </h3>
         <p class="text-orange-200">280$</p>
         <button
-          class="px-4 py-2 bg-orange-50 text-amber-950 rounded-4xl cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 add-to-cart"
+          class="px-4 py-2 bg-orange-50 text-amber-950 rounded-4xl cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 add-to-cart w-full mt-2"
           data-title="Old money hidjab look"
           data-price="280"
           data-img="saytkoylak7.jpg"
@@ -146,19 +156,19 @@
       </div>
       <!-- 6-shop -->
       <div
-        class="bg-amber-950 rounded-xl p-6 shadow-md hover:shadow-xl hover:scale-105 duration-300"
+        class="bg-amber-950 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-xl hover:scale-105 duration-300 w-full sm:w-[320px] max-w-xs"
       >
         <img
           src="hijabkoylak6.webp"
-          class="rounded-md mb-4 w-50"
+          class="rounded-md mb-4 w-full h-48 object-cover"
           alt="Project 1"
         />
-        <h3 class="text-xl mb-2 font-extralight text-orange-50">
+        <h3 class="text-lg sm:text-xl mb-2 font-extralight text-orange-50">
           Old money hidjab look
         </h3>
         <p class="text-orange-200">500$</p>
         <button
-          class="px-4 py-2 bg-orange-50 text-amber-950 rounded-4xl cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 add-to-cart"
+          class="px-4 py-2 bg-orange-50 text-amber-950 rounded-4xl cursor-pointer duration-300 hover:bg-orange-50 shadow-md hover:shadow-orange-200 add-to-cart w-full mt-2"
           data-title="Old money hidjab look"
           data-price="500"
           data-img="hijabkoylak6.webp"
@@ -170,8 +180,10 @@
 
     <!-- Contact Banner -->
     <div class="bg-orange-50">
-      <div class="text-center p-40 sm:px-10">
-        <p class="text-lg sm:text-xl text-amber-950 leading-relaxed">
+      <div class="text-center p-8 sm:p-20 md:p-40 sm:px-10">
+        <p
+          class="text-base sm:text-lg md:text-xl text-amber-950 leading-relaxed"
+        >
           Agar siz saytimizdagi mahsulotlar, xizmatlar yoki dizayn bo'yicha
           qo'shimcha savollarga ega bo'lsangiz, biz bilan bog'lanishdan
           tortinmang. Hurmatli foydalanuvchi, sizga qulaylik yaratish maqsadida,
@@ -181,7 +193,7 @@
         <a
           href="https://t.me/MarjonaMardonovna"
           target="_blank"
-          class="text-orange-700 decoration-none hover:text-orange-200 transition block mt-4"
+          class="text-orange-700 decoration-none hover:text-orange-200 transition block mt-4 text-base sm:text-lg"
           >@MarjonaMardonovna</a
         >
       </div>
@@ -189,7 +201,7 @@
 
     <!-- Footer -->
     <footer
-      class="bg-orange-200 text-center text-sm text-amber-950 py-8 border-t border-orange-50 px-4 sm:px-10"
+      class="bg-orange-200 text-center text-xs sm:text-sm text-amber-950 py-6 sm:py-8 border-t border-orange-50 px-2 sm:px-4 md:px-10"
     >
       <p>&copy; 2025 Marjona Mavlonova. Barcha huquqlar himoyalangan.</p>
       <p class="mt-2">
@@ -203,14 +215,16 @@
       id="cart-modal"
       class="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50 hidden"
     >
-      <div class="bg-orange-50 rounded-lg p-8 w-full max-w-md relative">
+      <div
+        class="bg-orange-50 rounded-lg p-4 sm:p-8 w-full max-w-xs sm:max-w-md relative mx-2"
+      >
         <button
           id="close-cart"
           class="absolute top-2 right-2 text-amber-950 text-2xl"
         >
           &times;
         </button>
-        <h2 class="text-2xl mb-4 text-amber-950">Savatcha</h2>
+        <h2 class="text-xl sm:text-2xl mb-4 text-amber-950">Savatcha</h2>
         <div id="cart-items" class="mb-4"></div>
         <div class="flex flex-col gap-2 mb-4">
           <input
